@@ -1,3 +1,7 @@
 export const ROUTES = {
-	HOME: '/'
+	HOME: '/',
+	FOOD: '/food',
+	CLOTHING: '/clothing',
+	ELECTRONICS: '/electronics',
+	NOT_FOUND: '*' 
 } as const;

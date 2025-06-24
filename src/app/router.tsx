@@ -5,6 +5,7 @@ import { ROUTES } from "@/shared/api/routes";
 
 export const router = createBrowserRouter([
 	{
+		path: ROUTES.HOME,
 		element: (
 			<Providers>
 				<App />
@@ -12,8 +13,24 @@ export const router = createBrowserRouter([
 		),
 		children: [
 			{
-				path: ROUTES.HOME,
+				index: true,
 				lazy: () => import("@/pages/main/ui/home-page")
+			},
+			{
+				path: ROUTES.FOOD,
+				lazy: () => import("@/pages/products/ui/food-page")
+			},
+			{
+				path: ROUTES.CLOTHING,
+				lazy: () => import("@/pages/products/ui/clothing-page")
+			},
+			{
+				path: ROUTES.ELECTRONICS,
+				lazy: () => import("@/pages/products/ui/electronics-page")
+			},
+			{
+				path: ROUTES.NOT_FOUND,
+				lazy: () => import("@/pages/not-found/ui/not-found-page")
 			}
 		]
 	}
