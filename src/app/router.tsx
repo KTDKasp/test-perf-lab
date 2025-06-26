@@ -29,6 +29,10 @@ export const router = createBrowserRouter([
 				lazy: () => import("@/pages/products/ui/electronics-page")
 			},
 			{
+				path: ROUTES.SUCCESS_ORDER,
+				lazy: () => import("@/pages/success-order/ui/success-order-page")
+			},
+			{
 				path: ROUTES.NOT_FOUND,
 				lazy: () => import("@/pages/not-found/ui/not-found-page")
 			}

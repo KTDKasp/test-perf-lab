@@ -5,1626 +5,630 @@
       "name": "Food Item 1",
       "price": 3.21,
       "image": "https://placehold.co/200x200?text=Food+1",
-      "category": "food",
-      "calories": 508,
-      "weight": 140
+      "category": "food"
     },
     {
       "id": "9a6d8f17-2d0a-4e4f-bcbf-e8e5f74ad531",
       "name": "Food Item 2",
       "price": 11.37,
       "image": "https://placehold.co/200x200?text=Food+2",
-      "category": "food",
-      "calories": 416,
-      "weight": 90
+      "category": "food"
     },
     {
       "id": "1ed0ed5e-694b-48a1-8883-858450c1c288",
       "name": "Food Item 3",
       "price": 17.86,
       "image": "https://placehold.co/200x200?text=Food+3",
-      "category": "food",
-      "calories": 302,
-      "weight": 134
+      "category": "food"
     },
     {
       "id": "01021376-3b70-4a91-af64-857ace033a5e",
       "name": "Food Item 4",
       "price": 10.73,
       "image": "https://placehold.co/200x200?text=Food+4",
-      "category": "food",
-      "calories": 356,
-      "weight": 173
+      "category": "food"
     },
     {
       "id": "f9e5bb2b-6751-4486-97c2-80ba898ff4dc",
       "name": "Food Item 5",
       "price": 9.91,
       "image": "https://placehold.co/200x200?text=Food+5",
-      "category": "food",
-      "calories": 543,
-      "weight": 177
+      "category": "food"
     },
     {
       "id": "6f4c11ab-5b35-437e-8b23-45d50a756c0a",
       "name": "Food Item 6",
       "price": 18.95,
       "image": "https://placehold.co/200x200?text=Food+6",
-      "category": "food",
-      "calories": 554,
-      "weight": 69
+      "category": "food"
     },
     {
       "id": "58c3d4e4-fb5f-4cfe-a429-0a658450cdd3",
       "name": "Food Item 7",
       "price": 4.03,
       "image": "https://placehold.co/200x200?text=Food+7",
-      "category": "food",
-      "calories": 580,
-      "weight": 94
+      "category": "food"
     },
     {
       "id": "18f57433-f1f6-4fe1-a46f-540e46f62c3e",
       "name": "Food Item 8",
       "price": 7.86,
       "image": "https://placehold.co/200x200?text=Food+8",
-      "category": "food",
-      "calories": 593,
-      "weight": 101
+      "category": "food"
     },
     {
       "id": "630bc40f-eb8e-4d61-9f8b-6c7b56e9fccd",
       "name": "Food Item 9",
       "price": 4.01,
       "image": "https://placehold.co/200x200?text=Food+9",
-      "category": "food",
-      "calories": 396,
-      "weight": 22
+      "category": "food"
     },
     {
       "id": "7ccd3c71-5c7b-48f1-9054-deb25b6ba942",
       "name": "Food Item 10",
       "price": 12.7,
       "image": "https://placehold.co/200x200?text=Food+10",
-      "category": "food",
-      "calories": 438,
-      "weight": 42
+      "category": "food"
     },
     {
       "id": "ce68fa38-3bdb-4980-8d87-308377a90d87",
       "name": "Food Item 11",
       "price": 18.88,
       "image": "https://placehold.co/200x200?text=Food+11",
-      "category": "food",
-      "calories": 600,
-      "weight": 85
+      "category": "food"
     },
     {
       "id": "5b7d9a1a-6038-40cb-9544-a3b990f9a73e",
       "name": "Food Item 12",
       "price": 4.11,
       "image": "https://placehold.co/200x200?text=Food+12",
-      "category": "food",
-      "calories": 212,
-      "weight": 53
+      "category": "food"
     },
     {
       "id": "6c3cd364-547e-46b4-b432-48880ea661f0",
       "name": "Food Item 13",
       "price": 13.36,
       "image": "https://placehold.co/200x200?text=Food+13",
-      "category": "food",
-      "calories": 580,
-      "weight": 27
+      "category": "food"
     },
     {
       "id": "042980f2-8459-4959-ab77-97cb8ead869f",
       "name": "Food Item 14",
       "price": 7.35,
       "image": "https://placehold.co/200x200?text=Food+14",
-      "category": "food",
-      "calories": 571,
-      "weight": 36
+      "category": "food"
     },
     {
       "id": "57b8b2b9-4985-4553-b8d7-c7219d940583",
       "name": "Food Item 15",
       "price": 16.4,
       "image": "https://placehold.co/200x200?text=Food+15",
-      "category": "food",
-      "calories": 294,
-      "weight": 99
+      "category": "food"
     },
     {
       "id": "c38a0f05-a286-4f41-b195-16d940de2253",
       "name": "Food Item 16",
       "price": 18.13,
       "image": "https://placehold.co/200x200?text=Food+16",
-      "category": "food",
-      "calories": 388,
-      "weight": 104
+      "category": "food"
     },
     {
       "id": "a565e8ed-46a5-4cf3-b230-cbfa3624aeb0",
       "name": "Food Item 17",
       "price": 4.68,
       "image": "https://placehold.co/200x200?text=Food+17",
-      "category": "food",
-      "calories": 175,
-      "weight": 76
+      "category": "food"
     },
     {
       "id": "2ffb6f31-87ab-4428-af6a-042cf29f3ced",
       "name": "Food Item 18",
       "price": 7.8,
       "image": "https://placehold.co/200x200?text=Food+18",
-      "category": "food",
-      "calories": 530,
-      "weight": 33
+      "category": "food"
     },
     {
       "id": "eb93bdc4-9193-4aa3-99c6-d674317c50c3",
       "name": "Food Item 19",
       "price": 17.38,
       "image": "https://placehold.co/200x200?text=Food+19",
-      "category": "food",
-      "calories": 552,
-      "weight": 196
+      "category": "food"
     },
     {
       "id": "46ef40da-e716-4669-9b52-c21df1ad3872",
       "name": "Food Item 20",
       "price": 18.85,
       "image": "https://placehold.co/200x200?text=Food+20",
-      "category": "food",
-      "calories": 157,
-      "weight": 193
+      "category": "food"
     },
     {
       "id": "e87e65d6-470a-432c-a76b-6b2b0510350e",
       "name": "Food Item 21",
       "price": 9.25,
       "image": "https://placehold.co/200x200?text=Food+21",
-      "category": "food",
-      "calories": 242,
-      "weight": 11
+      "category": "food"
     },
     {
       "id": "90eed5a1-4ae6-4f70-977e-e10fe5bd3d11",
       "name": "Food Item 22",
       "price": 16.23,
       "image": "https://placehold.co/200x200?text=Food+22",
-      "category": "food",
-      "calories": 123,
-      "weight": 121
+      "category": "food"
     },
     {
       "id": "3ba7c50e-f7c6-48ad-aafa-fcee5587d069",
       "name": "Food Item 23",
       "price": 6.68,
       "image": "https://placehold.co/200x200?text=Food+23",
-      "category": "food",
-      "calories": 478,
-      "weight": 78
+      "category": "food"
     },
     {
       "id": "ddae9de2-19c3-45c6-bb49-e3f8359c1c70",
       "name": "Food Item 24",
       "price": 18.8,
       "image": "https://placehold.co/200x200?text=Food+24",
-      "category": "food",
-      "calories": 280,
-      "weight": 50
+      "category": "food"
     },
     {
       "id": "d1c15def-9aa6-4e2d-aaaf-53074c8bfbfe",
       "name": "Food Item 25",
       "price": 19.33,
       "image": "https://placehold.co/200x200?text=Food+25",
-      "category": "food",
-      "calories": 112,
-      "weight": 132
+      "category": "food"
     },
     {
       "id": "c8f8af92-1c4f-4af7-8b34-a6bd267ea283",
       "name": "Food Item 26",
       "price": 9.26,
       "image": "https://placehold.co/200x200?text=Food+26",
-      "category": "food",
-      "calories": 564,
-      "weight": 17
+      "category": "food"
     },
     {
       "id": "f97c4e1d-2318-4eac-a23c-684f148f5daa",
       "name": "Food Item 27",
       "price": 6.14,
       "image": "https://placehold.co/200x200?text=Food+27",
-      "category": "food",
-      "calories": 289,
-      "weight": 177
+      "category": "food"
     },
     {
       "id": "3cdc8a1d-1d10-4093-a204-247aaaaf9475",
       "name": "Food Item 28",
       "price": 17.74,
       "image": "https://placehold.co/200x200?text=Food+28",
-      "category": "food",
-      "calories": 219,
-      "weight": 108
+      "category": "food"
     },
     {
       "id": "943b1427-b165-48f8-848e-8d256ba46ab4",
       "name": "Food Item 29",
       "price": 6.68,
       "image": "https://placehold.co/200x200?text=Food+29",
-      "category": "food",
-      "calories": 332,
-      "weight": 119
+      "category": "food"
     },
     {
       "id": "9c344a6a-6b83-4ddb-bbd5-f8dac8fb4578",
       "name": "Food Item 30",
       "price": 8.73,
       "image": "https://placehold.co/200x200?text=Food+30",
-      "category": "food",
-      "calories": 471,
-      "weight": 132
+      "category": "food"
     },
     {
       "id": "8f65ceea-1b81-4137-8e6d-85869b05f710",
       "name": "Clothing Item 1",
       "price": 10.57,
       "image": "https://placehold.co/200x200?text=Clothing+1",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "58acae12-4fa1-459a-a9d1-13d8d98afb30",
       "name": "Clothing Item 2",
       "price": 41.37,
       "image": "https://placehold.co/200x200?text=Clothing+2",
-      "category": "clothing",
-      "size": "M",
-      "material": "Wool"
+      "category": "clothing"
     },
     {
       "id": "0153f620-c0ef-44e7-9500-f4727961d830",
       "name": "Clothing Item 3",
       "price": 58.88,
       "image": "https://placehold.co/200x200?text=Clothing+3",
-      "category": "clothing",
-      "size": "M",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "6d213dbb-ccfd-4f2c-a3a5-d197bc909d90",
       "name": "Clothing Item 4",
       "price": 84.49,
       "image": "https://placehold.co/200x200?text=Clothing+4",
-      "category": "clothing",
-      "size": "S",
-      "material": "Wool"
+      "category": "clothing"
     },
     {
       "id": "fd25af27-efeb-4b51-85b7-d0bb304cf57b",
       "name": "Clothing Item 5",
       "price": 74.96,
       "image": "https://placehold.co/200x200?text=Clothing+5",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "25e68b4c-5a9c-43d0-9c41-0b85d42cbd7e",
       "name": "Clothing Item 6",
       "price": 87.88,
       "image": "https://placehold.co/200x200?text=Clothing+6",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "7e48ce65-54fe-452f-8239-89cc891fa4ee",
       "name": "Clothing Item 7",
       "price": 51.09,
       "image": "https://placehold.co/200x200?text=Clothing+7",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "7553c40c-5987-46a5-b97c-54ab5627ddec",
       "name": "Clothing Item 8",
       "price": 91.98,
       "image": "https://placehold.co/200x200?text=Clothing+8",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "a867ed7c-278f-4e7c-8842-d9b97ef962d3",
       "name": "Clothing Item 9",
       "price": 31.74,
       "image": "https://placehold.co/200x200?text=Clothing+9",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "73920850-f374-4627-9e7b-138d04582cab",
       "name": "Clothing Item 10",
       "price": 54.16,
       "image": "https://placehold.co/200x200?text=Clothing+10",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "29cd0dc1-4691-4d76-9340-51bcb83cfedb",
       "name": "Clothing Item 11",
       "price": 32.66,
       "image": "https://placehold.co/200x200?text=Clothing+11",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "ba46d51d-f082-4511-a00a-b39c4a2f3fa6",
       "name": "Clothing Item 12",
       "price": 63.57,
       "image": "https://placehold.co/200x200?text=Clothing+12",
-      "category": "clothing",
-      "size": "L",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "6529f99d-fd21-4485-9802-bcb64af380b3",
       "name": "Clothing Item 13",
       "price": 11.19,
       "image": "https://placehold.co/200x200?text=Clothing+13",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "c9f787b5-17d9-4095-b73d-76a3920fed36",
       "name": "Clothing Item 14",
       "price": 41.51,
       "image": "https://placehold.co/200x200?text=Clothing+14",
-      "category": "clothing",
-      "size": "M",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "542ec9fa-dcf9-4dfa-b513-19339c81ca32",
       "name": "Clothing Item 15",
       "price": 90.44,
       "image": "https://placehold.co/200x200?text=Clothing+15",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "d189c925-d8f6-4e80-b900-cf5b4b14f8d0",
       "name": "Clothing Item 16",
       "price": 18.72,
       "image": "https://placehold.co/200x200?text=Clothing+16",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "9c303549-ca89-496f-8322-4ea3e604a224",
       "name": "Clothing Item 17",
       "price": 17.17,
       "image": "https://placehold.co/200x200?text=Clothing+17",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "f1796f64-49df-44f8-98f5-e47eb9467820",
       "name": "Clothing Item 18",
       "price": 71.88,
       "image": "https://placehold.co/200x200?text=Clothing+18",
-      "category": "clothing",
-      "size": "M",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "2329ee73-f499-4c04-b2ed-a38ad515b7a1",
       "name": "Clothing Item 19",
       "price": 32.76,
       "image": "https://placehold.co/200x200?text=Clothing+19",
-      "category": "clothing",
-      "size": "S",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "ea26a257-1c36-461d-81f4-40aca29602a0",
       "name": "Clothing Item 20",
       "price": 22.17,
       "image": "https://placehold.co/200x200?text=Clothing+20",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "43da6df5-722e-42b9-89f1-f302c08a657f",
       "name": "Clothing Item 21",
       "price": 71.06,
       "image": "https://placehold.co/200x200?text=Clothing+21",
-      "category": "clothing",
-      "size": "L",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "cefbfb6f-da6b-4521-a599-6060f1baba4b",
       "name": "Clothing Item 22",
       "price": 93.0,
       "image": "https://placehold.co/200x200?text=Clothing+22",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "1028a5a2-aa1d-4d2d-a61c-5d53ae2e590c",
       "name": "Clothing Item 23",
       "price": 65.64,
       "image": "https://placehold.co/200x200?text=Clothing+23",
-      "category": "clothing",
-      "size": "L",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "1b0e3c78-707e-4a98-9ec6-648129694394",
       "name": "Clothing Item 24",
       "price": 38.93,
       "image": "https://placehold.co/200x200?text=Clothing+24",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "c01d4a5f-6ad9-462f-af8a-86459d242c23",
       "name": "Clothing Item 25",
       "price": 47.37,
       "image": "https://placehold.co/200x200?text=Clothing+25",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "fa873e44-824f-416e-be69-62866330219f",
       "name": "Clothing Item 26",
       "price": 24.3,
       "image": "https://placehold.co/200x200?text=Clothing+26",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "630e3706-497f-413e-a1a8-6a979f3f7b6e",
       "name": "Clothing Item 27",
       "price": 53.37,
       "image": "https://placehold.co/200x200?text=Clothing+27",
-      "category": "clothing",
-      "size": "S",
-      "material": "Linen"
+      "category": "clothing"
     },
     {
       "id": "a68df719-b67e-4f84-b31b-c90e51e5e4dc",
       "name": "Clothing Item 28",
       "price": 49.68,
       "image": "https://placehold.co/200x200?text=Clothing+28",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Polyester"
+      "category": "clothing"
     },
     {
       "id": "8891a8b6-a090-41e6-990f-525dbe17a9be",
       "name": "Clothing Item 29",
       "price": 38.59,
       "image": "https://placehold.co/200x200?text=Clothing+29",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "77c21e01-6299-4151-a2c2-26d9f22c4ac3",
       "name": "Clothing Item 30",
       "price": 26.12,
       "image": "https://placehold.co/200x200?text=Clothing+30",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
+      "category": "clothing"
     },
     {
       "id": "de351e88-d6f6-4942-920d-8a2fe1959062",
       "name": "Electronic Item 1",
       "price": 386.48,
       "image": "https://placehold.co/200x200?text=Electronics+1",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "d31bef29-42e2-4838-9c5f-6caad3c2e437",
       "name": "Electronic Item 2",
       "price": 353.26,
       "image": "https://placehold.co/200x200?text=Electronics+2",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "fa68b25e-d9f8-4d2e-9625-b533910820af",
       "name": "Electronic Item 3",
       "price": 291.1,
       "image": "https://placehold.co/200x200?text=Electronics+3",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "9f3e0bc7-a11d-49ff-8b8b-f08cd2269c4e",
       "name": "Electronic Item 4",
       "price": 322.36,
       "image": "https://placehold.co/200x200?text=Electronics+4",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "3fc6f9ba-db41-4185-945f-e6ff4a552fc5",
       "name": "Electronic Item 5",
       "price": 363.91,
       "image": "https://placehold.co/200x200?text=Electronics+5",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "94975753-b2ad-4dfc-bd04-7fccde3646ec",
       "name": "Electronic Item 6",
       "price": 131.43,
       "image": "https://placehold.co/200x200?text=Electronics+6",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "10eafe21-9a4f-41bf-8817-fd54c453551e",
       "name": "Electronic Item 7",
       "price": 407.2,
       "image": "https://placehold.co/200x200?text=Electronics+7",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "3c5b7a63-4f7e-4156-ba20-5d0b032df4c1",
       "name": "Electronic Item 8",
       "price": 225.57,
       "image": "https://placehold.co/200x200?text=Electronics+8",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "b8bcd036-dbf2-4bf3-86a4-52f31af4d8b3",
       "name": "Electronic Item 9",
       "price": 219.38,
       "image": "https://placehold.co/200x200?text=Electronics+9",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "657f2ab1-a213-4b05-a064-76b9bd6bbefe",
       "name": "Electronic Item 10",
       "price": 374.99,
       "image": "https://placehold.co/200x200?text=Electronics+10",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "7703a30d-aef0-4a39-b3b2-7c7078d925c6",
       "name": "Electronic Item 11",
       "price": 112.37,
       "image": "https://placehold.co/200x200?text=Electronics+11",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "a615f91a-2c74-445f-bf34-57d0efb17c3d",
       "name": "Electronic Item 12",
       "price": 401.72,
       "image": "https://placehold.co/200x200?text=Electronics+12",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "8798912a-7e1f-4f4b-9880-5bdf50801d6d",
       "name": "Electronic Item 13",
       "price": 248.33,
       "image": "https://placehold.co/200x200?text=Electronics+13",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "7998e9de-51c1-4f16-b576-73b5051aac38",
       "name": "Electronic Item 14",
       "price": 375.66,
       "image": "https://placehold.co/200x200?text=Electronics+14",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "624ba845-17d2-4b4c-a087-384c9954cbcf",
       "name": "Electronic Item 15",
       "price": 253.79,
       "image": "https://placehold.co/200x200?text=Electronics+15",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "3591794f-659a-4600-8f9b-fb2e4eaa3fd2",
       "name": "Electronic Item 16",
       "price": 85.34,
       "image": "https://placehold.co/200x200?text=Electronics+16",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Apple"
+      "category": "electronics"
     },
     {
       "id": "2c957c35-254f-449d-a452-2f1811dc6ec6",
       "name": "Electronic Item 17",
       "price": 498.15,
       "image": "https://placehold.co/200x200?text=Electronics+17",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "5ffa3772-122a-4d23-80bf-4dbacd1c6471",
       "name": "Electronic Item 18",
       "price": 164.76,
       "image": "https://placehold.co/200x200?text=Electronics+18",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "2371b736-d376-45b6-8f7a-9a3a5dcf2dac",
       "name": "Electronic Item 19",
       "price": 222.88,
       "image": "https://placehold.co/200x200?text=Electronics+19",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "3b57b251-7eee-4395-9e01-1046179a4ba8",
       "name": "Electronic Item 20",
       "price": 399.26,
       "image": "https://placehold.co/200x200?text=Electronics+20",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Apple"
+      "category": "electronics"
     },
     {
       "id": "41c08ca5-d39a-4c96-82c1-eb47d063895e",
       "name": "Electronic Item 21",
       "price": 214.26,
       "image": "https://placehold.co/200x200?text=Electronics+21",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "ef1e34a1-0390-481a-ab61-60b7d3672bab",
       "name": "Electronic Item 22",
       "price": 492.41,
       "image": "https://placehold.co/200x200?text=Electronics+22",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "f3fd805d-8a77-4048-9a1c-18d8679b7402",
       "name": "Electronic Item 23",
       "price": 400.05,
       "image": "https://placehold.co/200x200?text=Electronics+23",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Apple"
+      "category": "electronics"
     },
     {
       "id": "18181c29-0001-4323-b473-084a21710d31",
       "name": "Electronic Item 24",
       "price": 157.33,
       "image": "https://placehold.co/200x200?text=Electronics+24",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "1fbc6dab-857b-4e13-907a-3ee123b8f5f0",
       "name": "Electronic Item 25",
       "price": 217.65,
       "image": "https://placehold.co/200x200?text=Electronics+25",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Dell"
+      "category": "electronics"
     },
     {
       "id": "57b09161-cb96-4007-ada0-5c18c39e3ee9",
       "name": "Electronic Item 26",
       "price": 347.45,
       "image": "https://placehold.co/200x200?text=Electronics+26",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "bff09c45-95e4-4421-9423-b0d95e21c0c2",
       "name": "Electronic Item 27",
       "price": 412.9,
       "image": "https://placehold.co/200x200?text=Electronics+27",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "LG"
+      "category": "electronics"
     },
     {
       "id": "437198a2-2429-4c62-934d-961188d6ffb9",
       "name": "Electronic Item 28",
       "price": 73.27,
       "image": "https://placehold.co/200x200?text=Electronics+28",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
+      "category": "electronics"
     },
     {
       "id": "3ab0d3ff-d332-4c65-ab56-c42bf9a4b1e0",
       "name": "Electronic Item 29",
       "price": 277.24,
       "image": "https://placehold.co/200x200?text=Electronics+29",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Sony"
+      "category": "electronics"
     },
     {
       "id": "3242f25d-a136-448b-98d6-b6dad040a5a4",
       "name": "Electronic Item 30",
       "price": 285.61,
       "image": "https://placehold.co/200x200?text=Electronics+30",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Dell"
+      "category": "electronics"
     }
-  ],
-	"food": [
-		{
-      "id": "d87275b0-dc69-4681-bd28-9d30ea690c5e",
-      "name": "Food Item 1",
-      "price": 3.21,
-      "image": "https://placehold.co/200x200?text=Food+1",
-      "category": "food",
-      "calories": 508,
-      "weight": 140
-    },
-    {
-      "id": "9a6d8f17-2d0a-4e4f-bcbf-e8e5f74ad531",
-      "name": "Food Item 2",
-      "price": 11.37,
-      "image": "https://placehold.co/200x200?text=Food+2",
-      "category": "food",
-      "calories": 416,
-      "weight": 90
-    },
-    {
-      "id": "1ed0ed5e-694b-48a1-8883-858450c1c288",
-      "name": "Food Item 3",
-      "price": 17.86,
-      "image": "https://placehold.co/200x200?text=Food+3",
-      "category": "food",
-      "calories": 302,
-      "weight": 134
-    },
-    {
-      "id": "01021376-3b70-4a91-af64-857ace033a5e",
-      "name": "Food Item 4",
-      "price": 10.73,
-      "image": "https://placehold.co/200x200?text=Food+4",
-      "category": "food",
-      "calories": 356,
-      "weight": 173
-    },
-    {
-      "id": "f9e5bb2b-6751-4486-97c2-80ba898ff4dc",
-      "name": "Food Item 5",
-      "price": 9.91,
-      "image": "https://placehold.co/200x200?text=Food+5",
-      "category": "food",
-      "calories": 543,
-      "weight": 177
-    },
-    {
-      "id": "6f4c11ab-5b35-437e-8b23-45d50a756c0a",
-      "name": "Food Item 6",
-      "price": 18.95,
-      "image": "https://placehold.co/200x200?text=Food+6",
-      "category": "food",
-      "calories": 554,
-      "weight": 69
-    },
-    {
-      "id": "58c3d4e4-fb5f-4cfe-a429-0a658450cdd3",
-      "name": "Food Item 7",
-      "price": 4.03,
-      "image": "https://placehold.co/200x200?text=Food+7",
-      "category": "food",
-      "calories": 580,
-      "weight": 94
-    },
-    {
-      "id": "18f57433-f1f6-4fe1-a46f-540e46f62c3e",
-      "name": "Food Item 8",
-      "price": 7.86,
-      "image": "https://placehold.co/200x200?text=Food+8",
-      "category": "food",
-      "calories": 593,
-      "weight": 101
-    },
-    {
-      "id": "630bc40f-eb8e-4d61-9f8b-6c7b56e9fccd",
-      "name": "Food Item 9",
-      "price": 4.01,
-      "image": "https://placehold.co/200x200?text=Food+9",
-      "category": "food",
-      "calories": 396,
-      "weight": 22
-    },
-    {
-      "id": "7ccd3c71-5c7b-48f1-9054-deb25b6ba942",
-      "name": "Food Item 10",
-      "price": 12.7,
-      "image": "https://placehold.co/200x200?text=Food+10",
-      "category": "food",
-      "calories": 438,
-      "weight": 42
-    },
-    {
-      "id": "ce68fa38-3bdb-4980-8d87-308377a90d87",
-      "name": "Food Item 11",
-      "price": 18.88,
-      "image": "https://placehold.co/200x200?text=Food+11",
-      "category": "food",
-      "calories": 600,
-      "weight": 85
-    },
-    {
-      "id": "5b7d9a1a-6038-40cb-9544-a3b990f9a73e",
-      "name": "Food Item 12",
-      "price": 4.11,
-      "image": "https://placehold.co/200x200?text=Food+12",
-      "category": "food",
-      "calories": 212,
-      "weight": 53
-    },
-    {
-      "id": "6c3cd364-547e-46b4-b432-48880ea661f0",
-      "name": "Food Item 13",
-      "price": 13.36,
-      "image": "https://placehold.co/200x200?text=Food+13",
-      "category": "food",
-      "calories": 580,
-      "weight": 27
-    },
-    {
-      "id": "042980f2-8459-4959-ab77-97cb8ead869f",
-      "name": "Food Item 14",
-      "price": 7.35,
-      "image": "https://placehold.co/200x200?text=Food+14",
-      "category": "food",
-      "calories": 571,
-      "weight": 36
-    },
-    {
-      "id": "57b8b2b9-4985-4553-b8d7-c7219d940583",
-      "name": "Food Item 15",
-      "price": 16.4,
-      "image": "https://placehold.co/200x200?text=Food+15",
-      "category": "food",
-      "calories": 294,
-      "weight": 99
-    },
-    {
-      "id": "c38a0f05-a286-4f41-b195-16d940de2253",
-      "name": "Food Item 16",
-      "price": 18.13,
-      "image": "https://placehold.co/200x200?text=Food+16",
-      "category": "food",
-      "calories": 388,
-      "weight": 104
-    },
-    {
-      "id": "a565e8ed-46a5-4cf3-b230-cbfa3624aeb0",
-      "name": "Food Item 17",
-      "price": 4.68,
-      "image": "https://placehold.co/200x200?text=Food+17",
-      "category": "food",
-      "calories": 175,
-      "weight": 76
-    },
-    {
-      "id": "2ffb6f31-87ab-4428-af6a-042cf29f3ced",
-      "name": "Food Item 18",
-      "price": 7.8,
-      "image": "https://placehold.co/200x200?text=Food+18",
-      "category": "food",
-      "calories": 530,
-      "weight": 33
-    },
-    {
-      "id": "eb93bdc4-9193-4aa3-99c6-d674317c50c3",
-      "name": "Food Item 19",
-      "price": 17.38,
-      "image": "https://placehold.co/200x200?text=Food+19",
-      "category": "food",
-      "calories": 552,
-      "weight": 196
-    },
-    {
-      "id": "46ef40da-e716-4669-9b52-c21df1ad3872",
-      "name": "Food Item 20",
-      "price": 18.85,
-      "image": "https://placehold.co/200x200?text=Food+20",
-      "category": "food",
-      "calories": 157,
-      "weight": 193
-    },
-    {
-      "id": "e87e65d6-470a-432c-a76b-6b2b0510350e",
-      "name": "Food Item 21",
-      "price": 9.25,
-      "image": "https://placehold.co/200x200?text=Food+21",
-      "category": "food",
-      "calories": 242,
-      "weight": 11
-    },
-    {
-      "id": "90eed5a1-4ae6-4f70-977e-e10fe5bd3d11",
-      "name": "Food Item 22",
-      "price": 16.23,
-      "image": "https://placehold.co/200x200?text=Food+22",
-      "category": "food",
-      "calories": 123,
-      "weight": 121
-    },
-    {
-      "id": "3ba7c50e-f7c6-48ad-aafa-fcee5587d069",
-      "name": "Food Item 23",
-      "price": 6.68,
-      "image": "https://placehold.co/200x200?text=Food+23",
-      "category": "food",
-      "calories": 478,
-      "weight": 78
-    },
-    {
-      "id": "ddae9de2-19c3-45c6-bb49-e3f8359c1c70",
-      "name": "Food Item 24",
-      "price": 18.8,
-      "image": "https://placehold.co/200x200?text=Food+24",
-      "category": "food",
-      "calories": 280,
-      "weight": 50
-    },
-    {
-      "id": "d1c15def-9aa6-4e2d-aaaf-53074c8bfbfe",
-      "name": "Food Item 25",
-      "price": 19.33,
-      "image": "https://placehold.co/200x200?text=Food+25",
-      "category": "food",
-      "calories": 112,
-      "weight": 132
-    },
-    {
-      "id": "c8f8af92-1c4f-4af7-8b34-a6bd267ea283",
-      "name": "Food Item 26",
-      "price": 9.26,
-      "image": "https://placehold.co/200x200?text=Food+26",
-      "category": "food",
-      "calories": 564,
-      "weight": 17
-    },
-    {
-      "id": "f97c4e1d-2318-4eac-a23c-684f148f5daa",
-      "name": "Food Item 27",
-      "price": 6.14,
-      "image": "https://placehold.co/200x200?text=Food+27",
-      "category": "food",
-      "calories": 289,
-      "weight": 177
-    },
-    {
-      "id": "3cdc8a1d-1d10-4093-a204-247aaaaf9475",
-      "name": "Food Item 28",
-      "price": 17.74,
-      "image": "https://placehold.co/200x200?text=Food+28",
-      "category": "food",
-      "calories": 219,
-      "weight": 108
-    },
-    {
-      "id": "943b1427-b165-48f8-848e-8d256ba46ab4",
-      "name": "Food Item 29",
-      "price": 6.68,
-      "image": "https://placehold.co/200x200?text=Food+29",
-      "category": "food",
-      "calories": 332,
-      "weight": 119
-    },
-    {
-      "id": "9c344a6a-6b83-4ddb-bbd5-f8dac8fb4578",
-      "name": "Food Item 30",
-      "price": 8.73,
-      "image": "https://placehold.co/200x200?text=Food+30",
-      "category": "food",
-      "calories": 471,
-      "weight": 132
-    }
-	],
-	"clothing": [
-		{
-      "id": "8f65ceea-1b81-4137-8e6d-85869b05f710",
-      "name": "Clothing Item 1",
-      "price": 10.57,
-      "image": "https://placehold.co/200x200?text=Clothing+1",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
-    },
-    {
-      "id": "58acae12-4fa1-459a-a9d1-13d8d98afb30",
-      "name": "Clothing Item 2",
-      "price": 41.37,
-      "image": "https://placehold.co/200x200?text=Clothing+2",
-      "category": "clothing",
-      "size": "M",
-      "material": "Wool"
-    },
-    {
-      "id": "0153f620-c0ef-44e7-9500-f4727961d830",
-      "name": "Clothing Item 3",
-      "price": 58.88,
-      "image": "https://placehold.co/200x200?text=Clothing+3",
-      "category": "clothing",
-      "size": "M",
-      "material": "Cotton"
-    },
-    {
-      "id": "6d213dbb-ccfd-4f2c-a3a5-d197bc909d90",
-      "name": "Clothing Item 4",
-      "price": 84.49,
-      "image": "https://placehold.co/200x200?text=Clothing+4",
-      "category": "clothing",
-      "size": "S",
-      "material": "Wool"
-    },
-    {
-      "id": "fd25af27-efeb-4b51-85b7-d0bb304cf57b",
-      "name": "Clothing Item 5",
-      "price": 74.96,
-      "image": "https://placehold.co/200x200?text=Clothing+5",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
-    },
-    {
-      "id": "25e68b4c-5a9c-43d0-9c41-0b85d42cbd7e",
-      "name": "Clothing Item 6",
-      "price": 87.88,
-      "image": "https://placehold.co/200x200?text=Clothing+6",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Linen"
-    },
-    {
-      "id": "7e48ce65-54fe-452f-8239-89cc891fa4ee",
-      "name": "Clothing Item 7",
-      "price": 51.09,
-      "image": "https://placehold.co/200x200?text=Clothing+7",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Linen"
-    },
-    {
-      "id": "7553c40c-5987-46a5-b97c-54ab5627ddec",
-      "name": "Clothing Item 8",
-      "price": 91.98,
-      "image": "https://placehold.co/200x200?text=Clothing+8",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
-    },
-    {
-      "id": "a867ed7c-278f-4e7c-8842-d9b97ef962d3",
-      "name": "Clothing Item 9",
-      "price": 31.74,
-      "image": "https://placehold.co/200x200?text=Clothing+9",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
-    },
-    {
-      "id": "73920850-f374-4627-9e7b-138d04582cab",
-      "name": "Clothing Item 10",
-      "price": 54.16,
-      "image": "https://placehold.co/200x200?text=Clothing+10",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
-    },
-    {
-      "id": "29cd0dc1-4691-4d76-9340-51bcb83cfedb",
-      "name": "Clothing Item 11",
-      "price": 32.66,
-      "image": "https://placehold.co/200x200?text=Clothing+11",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
-    },
-    {
-      "id": "ba46d51d-f082-4511-a00a-b39c4a2f3fa6",
-      "name": "Clothing Item 12",
-      "price": 63.57,
-      "image": "https://placehold.co/200x200?text=Clothing+12",
-      "category": "clothing",
-      "size": "L",
-      "material": "Polyester"
-    },
-    {
-      "id": "6529f99d-fd21-4485-9802-bcb64af380b3",
-      "name": "Clothing Item 13",
-      "price": 11.19,
-      "image": "https://placehold.co/200x200?text=Clothing+13",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
-    },
-    {
-      "id": "c9f787b5-17d9-4095-b73d-76a3920fed36",
-      "name": "Clothing Item 14",
-      "price": 41.51,
-      "image": "https://placehold.co/200x200?text=Clothing+14",
-      "category": "clothing",
-      "size": "M",
-      "material": "Cotton"
-    },
-    {
-      "id": "542ec9fa-dcf9-4dfa-b513-19339c81ca32",
-      "name": "Clothing Item 15",
-      "price": 90.44,
-      "image": "https://placehold.co/200x200?text=Clothing+15",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
-    },
-    {
-      "id": "d189c925-d8f6-4e80-b900-cf5b4b14f8d0",
-      "name": "Clothing Item 16",
-      "price": 18.72,
-      "image": "https://placehold.co/200x200?text=Clothing+16",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
-    },
-    {
-      "id": "9c303549-ca89-496f-8322-4ea3e604a224",
-      "name": "Clothing Item 17",
-      "price": 17.17,
-      "image": "https://placehold.co/200x200?text=Clothing+17",
-      "category": "clothing",
-      "size": "M",
-      "material": "Polyester"
-    },
-    {
-      "id": "f1796f64-49df-44f8-98f5-e47eb9467820",
-      "name": "Clothing Item 18",
-      "price": 71.88,
-      "image": "https://placehold.co/200x200?text=Clothing+18",
-      "category": "clothing",
-      "size": "M",
-      "material": "Linen"
-    },
-    {
-      "id": "2329ee73-f499-4c04-b2ed-a38ad515b7a1",
-      "name": "Clothing Item 19",
-      "price": 32.76,
-      "image": "https://placehold.co/200x200?text=Clothing+19",
-      "category": "clothing",
-      "size": "S",
-      "material": "Linen"
-    },
-    {
-      "id": "ea26a257-1c36-461d-81f4-40aca29602a0",
-      "name": "Clothing Item 20",
-      "price": 22.17,
-      "image": "https://placehold.co/200x200?text=Clothing+20",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
-    },
-    {
-      "id": "43da6df5-722e-42b9-89f1-f302c08a657f",
-      "name": "Clothing Item 21",
-      "price": 71.06,
-      "image": "https://placehold.co/200x200?text=Clothing+21",
-      "category": "clothing",
-      "size": "L",
-      "material": "Cotton"
-    },
-    {
-      "id": "cefbfb6f-da6b-4521-a599-6060f1baba4b",
-      "name": "Clothing Item 22",
-      "price": 93.0,
-      "image": "https://placehold.co/200x200?text=Clothing+22",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
-    },
-    {
-      "id": "1028a5a2-aa1d-4d2d-a61c-5d53ae2e590c",
-      "name": "Clothing Item 23",
-      "price": 65.64,
-      "image": "https://placehold.co/200x200?text=Clothing+23",
-      "category": "clothing",
-      "size": "L",
-      "material": "Linen"
-    },
-    {
-      "id": "1b0e3c78-707e-4a98-9ec6-648129694394",
-      "name": "Clothing Item 24",
-      "price": 38.93,
-      "image": "https://placehold.co/200x200?text=Clothing+24",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Polyester"
-    },
-    {
-      "id": "c01d4a5f-6ad9-462f-af8a-86459d242c23",
-      "name": "Clothing Item 25",
-      "price": 47.37,
-      "image": "https://placehold.co/200x200?text=Clothing+25",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
-    },
-    {
-      "id": "fa873e44-824f-416e-be69-62866330219f",
-      "name": "Clothing Item 26",
-      "price": 24.3,
-      "image": "https://placehold.co/200x200?text=Clothing+26",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Linen"
-    },
-    {
-      "id": "630e3706-497f-413e-a1a8-6a979f3f7b6e",
-      "name": "Clothing Item 27",
-      "price": 53.37,
-      "image": "https://placehold.co/200x200?text=Clothing+27",
-      "category": "clothing",
-      "size": "S",
-      "material": "Linen"
-    },
-    {
-      "id": "a68df719-b67e-4f84-b31b-c90e51e5e4dc",
-      "name": "Clothing Item 28",
-      "price": 49.68,
-      "image": "https://placehold.co/200x200?text=Clothing+28",
-      "category": "clothing",
-      "size": "XL",
-      "material": "Polyester"
-    },
-    {
-      "id": "8891a8b6-a090-41e6-990f-525dbe17a9be",
-      "name": "Clothing Item 29",
-      "price": 38.59,
-      "image": "https://placehold.co/200x200?text=Clothing+29",
-      "category": "clothing",
-      "size": "XS",
-      "material": "Cotton"
-    },
-    {
-      "id": "77c21e01-6299-4151-a2c2-26d9f22c4ac3",
-      "name": "Clothing Item 30",
-      "price": 26.12,
-      "image": "https://placehold.co/200x200?text=Clothing+30",
-      "category": "clothing",
-      "size": "S",
-      "material": "Cotton"
-    }
-	],
-	"electronics": [
-		{
-      "id": "de351e88-d6f6-4942-920d-8a2fe1959062",
-      "name": "Electronic Item 1",
-      "price": 386.48,
-      "image": "https://placehold.co/200x200?text=Electronics+1",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "LG"
-    },
-    {
-      "id": "d31bef29-42e2-4838-9c5f-6caad3c2e437",
-      "name": "Electronic Item 2",
-      "price": 353.26,
-      "image": "https://placehold.co/200x200?text=Electronics+2",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "LG"
-    },
-    {
-      "id": "fa68b25e-d9f8-4d2e-9625-b533910820af",
-      "name": "Electronic Item 3",
-      "price": 291.1,
-      "image": "https://placehold.co/200x200?text=Electronics+3",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
-    },
-    {
-      "id": "9f3e0bc7-a11d-49ff-8b8b-f08cd2269c4e",
-      "name": "Electronic Item 4",
-      "price": 322.36,
-      "image": "https://placehold.co/200x200?text=Electronics+4",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "LG"
-    },
-    {
-      "id": "3fc6f9ba-db41-4185-945f-e6ff4a552fc5",
-      "name": "Electronic Item 5",
-      "price": 363.91,
-      "image": "https://placehold.co/200x200?text=Electronics+5",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
-    },
-    {
-      "id": "94975753-b2ad-4dfc-bd04-7fccde3646ec",
-      "name": "Electronic Item 6",
-      "price": 131.43,
-      "image": "https://placehold.co/200x200?text=Electronics+6",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
-    },
-    {
-      "id": "10eafe21-9a4f-41bf-8817-fd54c453551e",
-      "name": "Electronic Item 7",
-      "price": 407.2,
-      "image": "https://placehold.co/200x200?text=Electronics+7",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "LG"
-    },
-    {
-      "id": "3c5b7a63-4f7e-4156-ba20-5d0b032df4c1",
-      "name": "Electronic Item 8",
-      "price": 225.57,
-      "image": "https://placehold.co/200x200?text=Electronics+8",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Dell"
-    },
-    {
-      "id": "b8bcd036-dbf2-4bf3-86a4-52f31af4d8b3",
-      "name": "Electronic Item 9",
-      "price": 219.38,
-      "image": "https://placehold.co/200x200?text=Electronics+9",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Dell"
-    },
-    {
-      "id": "657f2ab1-a213-4b05-a064-76b9bd6bbefe",
-      "name": "Electronic Item 10",
-      "price": 374.99,
-      "image": "https://placehold.co/200x200?text=Electronics+10",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Sony"
-    },
-    {
-      "id": "7703a30d-aef0-4a39-b3b2-7c7078d925c6",
-      "name": "Electronic Item 11",
-      "price": 112.37,
-      "image": "https://placehold.co/200x200?text=Electronics+11",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Sony"
-    },
-    {
-      "id": "a615f91a-2c74-445f-bf34-57d0efb17c3d",
-      "name": "Electronic Item 12",
-      "price": 401.72,
-      "image": "https://placehold.co/200x200?text=Electronics+12",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Sony"
-    },
-    {
-      "id": "8798912a-7e1f-4f4b-9880-5bdf50801d6d",
-      "name": "Electronic Item 13",
-      "price": 248.33,
-      "image": "https://placehold.co/200x200?text=Electronics+13",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "LG"
-    },
-    {
-      "id": "7998e9de-51c1-4f16-b576-73b5051aac38",
-      "name": "Electronic Item 14",
-      "price": 375.66,
-      "image": "https://placehold.co/200x200?text=Electronics+14",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
-    },
-    {
-      "id": "624ba845-17d2-4b4c-a087-384c9954cbcf",
-      "name": "Electronic Item 15",
-      "price": 253.79,
-      "image": "https://placehold.co/200x200?text=Electronics+15",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Dell"
-    },
-    {
-      "id": "3591794f-659a-4600-8f9b-fb2e4eaa3fd2",
-      "name": "Electronic Item 16",
-      "price": 85.34,
-      "image": "https://placehold.co/200x200?text=Electronics+16",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Apple"
-    },
-    {
-      "id": "2c957c35-254f-449d-a452-2f1811dc6ec6",
-      "name": "Electronic Item 17",
-      "price": 498.15,
-      "image": "https://placehold.co/200x200?text=Electronics+17",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Samsung"
-    },
-    {
-      "id": "5ffa3772-122a-4d23-80bf-4dbacd1c6471",
-      "name": "Electronic Item 18",
-      "price": 164.76,
-      "image": "https://placehold.co/200x200?text=Electronics+18",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Samsung"
-    },
-    {
-      "id": "2371b736-d376-45b6-8f7a-9a3a5dcf2dac",
-      "name": "Electronic Item 19",
-      "price": 222.88,
-      "image": "https://placehold.co/200x200?text=Electronics+19",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "Sony"
-    },
-    {
-      "id": "3b57b251-7eee-4395-9e01-1046179a4ba8",
-      "name": "Electronic Item 20",
-      "price": 399.26,
-      "image": "https://placehold.co/200x200?text=Electronics+20",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Apple"
-    },
-    {
-      "id": "41c08ca5-d39a-4c96-82c1-eb47d063895e",
-      "name": "Electronic Item 21",
-      "price": 214.26,
-      "image": "https://placehold.co/200x200?text=Electronics+21",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Dell"
-    },
-    {
-      "id": "ef1e34a1-0390-481a-ab61-60b7d3672bab",
-      "name": "Electronic Item 22",
-      "price": 492.41,
-      "image": "https://placehold.co/200x200?text=Electronics+22",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Sony"
-    },
-    {
-      "id": "f3fd805d-8a77-4048-9a1c-18d8679b7402",
-      "name": "Electronic Item 23",
-      "price": 400.05,
-      "image": "https://placehold.co/200x200?text=Electronics+23",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Apple"
-    },
-    {
-      "id": "18181c29-0001-4323-b473-084a21710d31",
-      "name": "Electronic Item 24",
-      "price": 157.33,
-      "image": "https://placehold.co/200x200?text=Electronics+24",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "LG"
-    },
-    {
-      "id": "1fbc6dab-857b-4e13-907a-3ee123b8f5f0",
-      "name": "Electronic Item 25",
-      "price": 217.65,
-      "image": "https://placehold.co/200x200?text=Electronics+25",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Dell"
-    },
-    {
-      "id": "57b09161-cb96-4007-ada0-5c18c39e3ee9",
-      "name": "Electronic Item 26",
-      "price": 347.45,
-      "image": "https://placehold.co/200x200?text=Electronics+26",
-      "category": "electronics",
-      "warrantyYears": 5,
-      "brand": "Samsung"
-    },
-    {
-      "id": "bff09c45-95e4-4421-9423-b0d95e21c0c2",
-      "name": "Electronic Item 27",
-      "price": 412.9,
-      "image": "https://placehold.co/200x200?text=Electronics+27",
-      "category": "electronics",
-      "warrantyYears": 3,
-      "brand": "LG"
-    },
-    {
-      "id": "437198a2-2429-4c62-934d-961188d6ffb9",
-      "name": "Electronic Item 28",
-      "price": 73.27,
-      "image": "https://placehold.co/200x200?text=Electronics+28",
-      "category": "electronics",
-      "warrantyYears": 2,
-      "brand": "Samsung"
-    },
-    {
-      "id": "3ab0d3ff-d332-4c65-ab56-c42bf9a4b1e0",
-      "name": "Electronic Item 29",
-      "price": 277.24,
-      "image": "https://placehold.co/200x200?text=Electronics+29",
-      "category": "electronics",
-      "warrantyYears": 1,
-      "brand": "Sony"
-    },
-    {
-      "id": "3242f25d-a136-448b-98d6-b6dad040a5a4",
-      "name": "Electronic Item 30",
-      "price": 285.61,
-      "image": "https://placehold.co/200x200?text=Electronics+30",
-      "category": "electronics",
-      "warrantyYears": 4,
-      "brand": "Dell"
-    }
-	]
+  ]
 }

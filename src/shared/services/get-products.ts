@@ -1,5 +1,5 @@
 import { API } from "../lib/api";
-import type { Product } from "../types/product";
+import type { fetchMetadata } from "../types/metadata";
 
 export async function getAllProducts() {
 	try {
@@ -7,7 +7,8 @@ export async function getAllProducts() {
     if (!res.ok) {
       throw new Error(`Failed to fetch products, status: ${res.status}`);
     }
-		return res.json() as Promise<Product[]>;
+		const data = await res.json() as Promise<fetchMetadata>;
+		return data
   } catch (error) {
 		if (error instanceof Error) {
 			console.error(error.message);
