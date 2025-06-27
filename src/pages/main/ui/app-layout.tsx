@@ -3,13 +3,16 @@ import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
 import { ROUTES } from "@/shared/api/routes";
 import { Drawer } from "@/shared/ui/components/drawer";
 import { OpenCartButton } from "@/shared/ui/components/open-cart-button";
+import { Button } from "@/shared/ui/kit/button";
 import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 
 export function AppLayout() {
   const location = useLocation();
 
-  const isDrawerOpen = useSelector((state: RootState) => state.cart.isDrawerOpen);
+  const isDrawerOpen = useSelector(
+    (state: RootState) => state.cart.isDrawerOpen,
+  );
   const dispatch = useAppDispatch();
 
   return (
@@ -27,9 +30,29 @@ export function AppLayout() {
               DarkStore
             </Link>
           )}
-          <Link to={ROUTES.FOOD}>Food</Link>
-          <Link to={ROUTES.CLOTHING}>Clothing</Link>
-          <Link to={ROUTES.ELECTRONICS}>Electronics</Link>
+          <Button
+            asChild
+            variant={"link"}
+            className="text-lg rounded-xl border border-gray-300"
+          >
+            <Link to={ROUTES.FOOD}>Food</Link>
+          </Button>
+          <Button
+            asChild
+            variant={"link"}
+            className="text-lg rounded-xl border border-gray-300"
+          >
+            <Link to={ROUTES.CLOTHING}>Clothing</Link>
+          </Button>
+
+          <Button
+            asChild
+            variant={"link"}
+            className="text-lg rounded-xl border border-gray-300"
+          >
+            <Link to={ROUTES.ELECTRONICS}>Electronics</Link>
+          </Button>
+
           <OpenCartButton />
         </nav>
       </header>

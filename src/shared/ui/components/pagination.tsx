@@ -14,7 +14,9 @@ export function Pagination({
   return (
     <ul className="flex items-center gap-1 p-5">
       {[...Array(totalPages)].map((_, i) => (
-        <Button asChild variant={currentPage === i + 1 ? "default" : "outline"}
+        <Button
+          asChild
+          variant={currentPage === i + 1 ? "default" : "outline"}
           onClick={() => onChangePage(i + 1)}
           className="cursor-pointer"
           key={i}

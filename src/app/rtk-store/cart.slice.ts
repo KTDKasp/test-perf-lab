@@ -50,20 +50,28 @@ export const cartSlice = createSlice({
       }
       state.totalPrice = calcTotalPrice(state.cartItems);
     },
-		deleteItemFromCart: (state, action: PayloadAction<string>) => {
-      state.cartItems = state.cartItems.filter(item => item.id !== action.payload);
+    deleteItemFromCart: (state, action: PayloadAction<string>) => {
+      state.cartItems = state.cartItems.filter(
+        (item) => item.id !== action.payload,
+      );
       state.totalPrice = calcTotalPrice(state.cartItems);
     },
-		clearCart: (state) => {
-			state.cartItems = [];
-			state.totalPrice = 0;
-		},
-		toggleDrawer: (state, action: PayloadAction<boolean>) => {
-			state.isDrawerOpen = action.payload;
-		}
+    clearCart: (state) => {
+      state.cartItems = [];
+      state.totalPrice = 0;
+    },
+    toggleDrawer: (state, action: PayloadAction<boolean>) => {
+      state.isDrawerOpen = action.payload;
+    },
   },
 });
 
-export const { addToCart, clearCart, deleteItemFromCart, subtractFromCart, toggleDrawer } = cartSlice.actions;
+export const {
+  addToCart,
+  clearCart,
+  deleteItemFromCart,
+  subtractFromCart,
+  toggleDrawer,
+} = cartSlice.actions;
 
 export default cartSlice.reducer;

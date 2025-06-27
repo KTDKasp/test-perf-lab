@@ -1,4 +1,9 @@
-import { setCategory, setSortType } from "@/app/rtk-store/filters.slice";
+import {
+  setCategory,
+  setCurrentPage,
+  setFilters,
+  setSortType,
+} from "@/app/rtk-store/filters.slice";
 import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
 import { API } from "@/shared/lib/api";
 import type { fetchMetadata } from "@/shared/types/metadata";
@@ -7,22 +12,52 @@ import { Filters } from "@/shared/ui/components/filters-group";
 import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
+import { sortList } from "@/shared/utils/constants";
+import QueryString from "qs";
 import { useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const PER_PAGE = 6;
 
 function HomePage() {
-  const [page, setPage] = useState(1);
   const [products, setProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  const navigate = useNavigate();
+
+  const currentPage = useSelector(
+    (state: RootState) => state.filters.currentPage,
+  );
   const category = useSelector((state: RootState) => state.filters.category);
   const sort = useSelector((state: RootState) => state.filters.sort);
   const dispatch = useAppDispatch();
 
   const totalPagesRef = useRef<number | null>(null);
+  const isMountedRef = useRef(false);
+
+  useEffect(() => {
+    if (isMountedRef.current) {
+      const queryString = QueryString.stringify({
+        sortProperty: sort.sortProperty,
+        category,
+        currentPage,
+      });
+      navigate(`?${queryString}`);
+    }
+    if (window.location.search) {
+      dispatch(
+        setFilters({
+          category,
+          currentPage,
+          sort: sort || sortList[0],
+        }),
+      );
+    }
+
+    isMountedRef.current = true;
+  }, [sort.sortProperty, currentPage, category]);
 
   useEffect(() => {
     let ignore = false;
@@ -33,7 +68,7 @@ function HomePage() {
       try {
         const res = await fetch(
           API.allProducts +
-            `?_sort=${sort.sortProperty}&${category === "all" ? "" : `category=${category}&`}_page=${page}&_per_page=${PER_PAGE}`,
+            `?_sort=${sort.sortProperty}&${category === "all" ? "" : `category=${category}&`}_page=${currentPage}&_per_page=${PER_PAGE}`,
         );
         if (!res.ok) {
           throw new Error(`Failed to fetch products, status: ${res.status}`);
@@ -60,7 +95,7 @@ function HomePage() {
     return () => {
       ignore = true;
     };
-  }, [page, sort.sortProperty, category]);
+  }, [currentPage, sort.sortProperty, category]);
 
   if (isLoading) {
     return <p className="font-bold">Loading...</p>;
@@ -90,8 +125,8 @@ function HomePage() {
       {error && <p className="font-bold">{error}</p>}
       <Pagination
         totalPages={totalPagesRef.current || 1}
-        currentPage={page}
-        onChangePage={setPage}
+        currentPage={currentPage}
+        onChangePage={(page) => dispatch(setCurrentPage(page))}
       />
     </main>
   );

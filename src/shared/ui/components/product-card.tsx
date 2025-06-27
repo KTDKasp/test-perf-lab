@@ -20,7 +20,10 @@ export function ProductCard({ product }: ProductCardProps) {
       </div>
       <div className="flex w-full justify-between">
         <span className="font-bold">{product.price.toFixed(2)} ₽</span>
-        <Button onClick={() => dispatch(addToCart(product))} className="cursor-pointer">
+        <Button
+          onClick={() => dispatch(addToCart(product))}
+          className="cursor-pointer"
+        >
           В корзину
         </Button>
       </div>

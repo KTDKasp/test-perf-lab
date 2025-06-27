@@ -23,10 +23,10 @@ export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
   const navigate = useNavigate();
 
   const createOrder = () => {
-    dispatch(toggleDrawer(false))
+    dispatch(toggleDrawer(false));
     dispatch(clearCart());
     navigate(ROUTES.SUCCESS_ORDER);
-  }
+  };
 
   return (
     <div
@@ -37,7 +37,7 @@ export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
       <div
         onClick={closeDrawer}
         className={cn(
-          "fixed top-0 left-0 right-0 bottom-0 h-full w-full bg-[rgba(0,0,0,0.6)] opacity-[0] z-10",
+          "fixed top-0 left-0 right-0 bottom-0 h-full w-full bg-[rgba(0,0,0,0.6)] opacity-[0] z-10 transition-opacity",
           {
             ["opacity-[1]"]: isOpen,
           },
@@ -74,7 +74,9 @@ export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
           <span className="flex-[1] border-[1px_dashed_#d7d7d7]"></span>
           <span>{cartTotalPrice || 0} ₽</span>
         </div>
-        <Button onClick={createOrder} className="w-full cursor-pointer">Оформить заказ</Button>
+        <Button onClick={createOrder} className="w-full cursor-pointer">
+          Оформить заказ
+        </Button>
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ export const CartItem = memo(function CartItem({
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Button
-            disabled={quantity === 1}
+              disabled={quantity === 1}
               variant="outline"
               size="icon"
               className="h-8 w-8"
