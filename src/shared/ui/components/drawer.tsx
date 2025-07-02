@@ -4,10 +4,10 @@ import { X } from "lucide-react";
 import type { HTMLAttributes } from "react";
 import { useSelector } from "react-redux";
 import { CartItem } from "./cart-item";
-import { Button } from "../kit/button";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "@/shared/api/routes";
 import { clearCart, toggleDrawer } from "@/app/rtk-store/cart.slice";
+import { EmptyCart } from "./empty-cart";
 
 type DrawerProps = HTMLAttributes<HTMLDivElement> & {
   isOpen: boolean;
@@ -61,22 +61,32 @@ export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
           </button>
           <h2>Корзина</h2>
         </div>
-        <ul className="flex flex-col gap-4 overflow-y-auto flex-[1] mb-7">
-          {cartItems.length > 0 &&
-            cartItems.map((item) => (
-              <li key={item.id}>
-                <CartItem {...item} />
-              </li>
-            ))}
-        </ul>
-        <div className="flex items-center mb-6">
-          <span>Итого:</span>
-          <span className="flex-[1] border-[1px_dashed_#d7d7d7]"></span>
-          <span>{cartTotalPrice || 0} ₽</span>
-        </div>
-        <Button onClick={createOrder} className="w-full cursor-pointer">
-          Оформить заказ
-        </Button>
+
+        {cartItems.length > 0 ? (
+          <>
+            <ul className="flex flex-col gap-4 overflow-y-auto flex-[1] mb-7">
+              {cartItems.length > 0 &&
+                cartItems.map((item) => (
+                  <li key={item.id}>
+                    <CartItem {...item} />
+                  </li>
+                ))}
+            </ul>
+            <div className="flex items-center mb-6">
+              <span>Итого:</span>
+              <span className="flex-[1] border-[1px_dashed_#d7d7d7]"></span>
+              <span>{cartTotalPrice || 0} ₽</span>
+            </div>
+            <button
+              onClick={createOrder}
+              className="w-full cursor-pointer bg-black text-white text-[14px] font-medium py-2 px-4 rounded-[8px] hover:bg-black/80"
+            >
+              Оформить заказ
+            </button>
+          </>
+        ) : (
+          <EmptyCart />
+        )}
       </div>
     </div>
   );

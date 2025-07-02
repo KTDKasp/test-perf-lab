@@ -1,126 +1,78 @@
-import {
-  setCurrentPage,
-  setFilters,
-  setSortType,
-} from "@/app/rtk-store/filters.slice";
+import { fetchProducts } from "@/app/rtk-store/products.slice";
 import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
-import { API } from "@/shared/lib/api";
-import type { fetchMetadata } from "@/shared/types/metadata";
-import type { Product } from "@/shared/types/product";
+import { useProductFilters } from "@/shared/hooks/use-product-filters";
+import { cn } from "@/shared/lib/css";
+import type { FilterCategory } from "@/shared/types/filters";
 import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
-import { sortList } from "@/shared/utils/constants";
-import QueryString from "qs";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-
-const PER_PAGE = 6;
+import { useLocation } from "react-router-dom";
 
 function FoodPage() {
-  const [products, setProducts] = useState<Product[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const navigate = useNavigate();
-
-  const currentPage = useSelector(
-    (state: RootState) => state.filters.currentPage,
+  const { products, error, loading, totalPages } = useSelector(
+    (state: RootState) => state.products,
   );
-  const sort = useSelector((state: RootState) => state.filters.sort);
   const dispatch = useAppDispatch();
 
-  const totalPagesRef = useRef<number | null>(null);
-  const isMountedRef = useRef(false);
+  const location = useLocation();
+  const pageCategory = location.pathname.slice(1) as FilterCategory;
+
+  const { page: currentPage, setFilters, sortProperty } = useProductFilters();
 
   useEffect(() => {
-    if (isMountedRef.current) {
-      const queryString = QueryString.stringify({
-        sortProperty: sort.sortProperty,
-        category: "electronics",
+    dispatch(
+      fetchProducts({
+        category: pageCategory,
         currentPage,
-      });
-      navigate(`?${queryString}`);
-    }
-    console.log(window.location.search);
-    if (window.location.search) {
-      dispatch(
-        setFilters({
-          category: "electronics",
-          currentPage,
-          sort: sort || sortList[0],
-        }),
-      );
-    }
+        sort: sortProperty,
+      }),
+    );
+  }, [currentPage, sortProperty]);
 
-    isMountedRef.current = true;
-  }, [sort.sortProperty, currentPage]);
+  const handleClickPage = useCallback((page: number) => {
+    setFilters({ currentPage: page });
+  }, []);
 
-  useEffect(() => {
-    let ignore = false;
-
-    const getAllProducts = async () => {
-      setIsLoading(true);
-      setError(null);
-      try {
-        const res = await fetch(
-          API.allProducts +
-            `?_sort=${sort.sortProperty}&category=food&_page=${currentPage}&_per_page=${PER_PAGE}`,
-        );
-        if (!res.ok) {
-          throw new Error(`Failed to fetch products, status: ${res.status}`);
-        }
-        const fetchData = (await res.json()) as fetchMetadata;
-        if (ignore) {
-          return;
-        }
-        totalPagesRef.current = fetchData.pages;
-        setProducts(fetchData.data);
-        setError(null);
-        setIsLoading(false);
-      } catch (error) {
-        if (error instanceof Error) {
-          console.error(error.message);
-          setIsLoading(false);
-          setError(error.message);
-        }
-      }
-    };
-
-    getAllProducts();
-
-    return () => {
-      ignore = true;
-    };
-  }, [currentPage, sort.sortProperty]);
-
-  if (isLoading) {
-    return <p className="font-bold">Loading...</p>;
-  }
   return (
-    <main>
-      <div className="flex items-center gap-5 mt-2 mb-5">
-        <h2>Food Page</h2>
-
-        <SelectSort
-          sortValue={sort}
-          onChangeSort={(sortType) => dispatch(setSortType(sortType))}
+    <main className="w-full flex flex-col flex-1">
+      <div className="container flex flex-col items-center mx-auto flex-[1]">
+        <h2 className="text-3xl font-semibold mb-2">Еда</h2>
+        <div className="flex items-center gap-5 mb-5">
+          <SelectSort
+            sortValue={sortProperty}
+            onChangeSort={(sortType) =>
+              setFilters({ sort: sortType.sortProperty })
+            }
+          />
+        </div>
+        <div className="flex-[1] w-full p-[10px]">
+          <ul
+            className={cn(
+              "grid grid-cols-3 justify-items-center h-full gap-4 mb-5",
+              {
+                ["opacity-50"]: loading,
+              },
+            )}
+          >
+            {products.map((product) => (
+              <li
+                className="max-h-[370px] max-w-[300px] w-full"
+                key={product.id}
+              >
+                <ProductCard product={product} />
+              </li>
+            ))}
+          </ul>
+        </div>
+        {error && <p className="font-bold">{error}</p>}
+        <Pagination
+          totalPages={totalPages}
+          currentPage={currentPage}
+          onChangePage={handleClickPage}
         />
       </div>
-      <ul className="grid grid-cols-3 justify-items-center gap-2 mb-5">
-        {products.map((product) => (
-          <li className="max-h-[370px] max-w-[300px] w-full" key={product.id}>
-            <ProductCard product={product} />
-          </li>
-        ))}
-      </ul>
-      {error && <p className="font-bold">{error}</p>}
-      <Pagination
-        totalPages={totalPagesRef.current || 1}
-        currentPage={currentPage}
-        onChangePage={(page) => dispatch(setCurrentPage(page))}
-      />
     </main>
   );
 }

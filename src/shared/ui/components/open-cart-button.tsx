@@ -17,7 +17,7 @@ export const OpenCartButton = memo(function OpenCartButton() {
         className="cursor-pointer"
         onClick={() => dispatch(toggleDrawer(true))}
       >
-        Cart {itemsCount}
+        Корзина {itemsCount}
       </Button>
     </div>
   );

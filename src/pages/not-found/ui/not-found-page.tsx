@@ -8,11 +8,19 @@ function NotFound() {
     navigate(ROUTES.HOME);
   };
   return (
-    <main className="flex flex-col items-center flex-[1] justify-center">
-      <h2 className="text-5xl text-bold mb-7">
-        This page does not exist. Please return to home page
-      </h2>
-      <Button onClick={handleClick}>Вернуться на главную</Button>
+    <main className="w-full flex flex-col items-center justify-center flex-[1]">
+      <div className="container px-4 flex flex-col justify-center items-center mx-auto">
+        <img
+          width="60px"
+          className="mb-2"
+          src="/png/emoji-1.png"
+          alt="Sad emoji"
+        />
+        <h2 className="text-center w-fit h-fit text-5xl text-bold mb-5">
+          This page does not exist. Please return to home page
+        </h2>
+        <Button onClick={handleClick}>Вернуться на главную</Button>
+      </div>
     </main>
   );
 }

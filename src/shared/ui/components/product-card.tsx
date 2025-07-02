@@ -10,7 +10,7 @@ type ProductCardProps = {
 export function ProductCard({ product }: ProductCardProps) {
   const dispatch = useAppDispatch();
   return (
-    <div className="flex flex-col items-center w-full h-fit p-2 [border:1px_solid_#333333] rounded-2xl">
+    <div className="flex flex-col items-center w-full h-fit p-3 [border:1px_solid_#333333] rounded-2xl">
       <div>
         <img className="mb-4" src={product.image} alt="Product Image" />
       </div>
@@ -18,7 +18,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <span>Название: {product.name}</span>
         <span>Категория: {product.category}</span>
       </div>
-      <div className="flex w-full justify-between">
+      <div className="flex w-full justify-between items-center">
         <span className="font-bold">{product.price.toFixed(2)} ₽</span>
         <Button
           onClick={() => dispatch(addToCart(product))}

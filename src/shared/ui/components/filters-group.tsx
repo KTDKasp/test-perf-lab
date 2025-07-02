@@ -1,12 +1,12 @@
-import type { Category } from "@/app/rtk-store/filters.slice";
+import type { FilterCategory } from "@/shared/types/filters";
 import { Button } from "../kit/button";
 
 type FiltersProps = {
-  category: Category;
-  onClickCategory: (name: Category) => void;
+  category: FilterCategory;
+  onClickCategory: (name: FilterCategory) => void;
 };
 
-const categoryList: { key: Category; value: string }[] = [
+const categoryList: { key: FilterCategory; value: string }[] = [
   { key: "all", value: "Все" },
   { key: "clothing", value: "Одежда" },
   { key: "electronics", value: "Электроника" },
@@ -15,7 +15,7 @@ const categoryList: { key: Category; value: string }[] = [
 
 export function Filters({ category, onClickCategory }: FiltersProps) {
   return (
-    <ul className="flex">
+    <ul className="flex gap-2">
       {categoryList.map(({ key, value }) => (
         <li key={key}>
           <Button
