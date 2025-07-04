@@ -1,6 +1,6 @@
-export type ProductTypeRoute = {
-  productType: "food" | "clothing" | "electronics";
-};
+export const ALLOWED_PRODUCT_TYPE = ['food', 'clothing', 'electronics'] as const;
+export type ProductType = typeof ALLOWED_PRODUCT_TYPE[number]
+
 
 export const ROUTES = {
   HOME: "/",
@@ -10,7 +10,9 @@ export const ROUTES = {
 } as const;
 
 export type PathParams = {
-  [ROUTES.PRODUCTS]: ProductTypeRoute;
+  [ROUTES.PRODUCTS]: {
+    productType: ProductType
+  };
 };
 
 declare module "react-router-dom" {

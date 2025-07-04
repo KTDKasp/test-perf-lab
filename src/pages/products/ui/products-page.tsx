@@ -3,23 +3,24 @@ import { fetchProducts } from "@/app/rtk-store/thunks/products-thunk";
 import { ROUTES, type PathParams } from "@/shared/api/routes";
 import { useProductFilters } from "@/shared/hooks/use-product-filters";
 import { cn } from "@/shared/lib/css";
+import { validateProductType } from "@/shared/services/validate-product-type";
 import type { FilterCategory } from "@/shared/types/filters";
-import { NotFound } from "@/shared/ui/components/not-found";
 import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
 import { productTypeName } from "@/shared/utils/constants";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 
 function ProductsPage() {
   const { productType } = useParams<PathParams[typeof ROUTES.PRODUCTS]>();
+  const validProductType = validateProductType(productType);
 
   const { products, error, loading, totalPages } = useAppSelector(
     (state) => state.products,
   );
   const dispatch = useAppDispatch();
-  const pageCategory = productType as FilterCategory;
+  const pageCategory = validProductType as FilterCategory;
 
   const { page: currentPage, setFilters, sortProperty } = useProductFilters();
 
@@ -32,20 +33,15 @@ function ProductsPage() {
       }),
     );
   }, [pageCategory, currentPage, sortProperty]);
-  const productPageName = productTypeName[productType!];
+
+  const productPageName = productTypeName[validProductType!];
 
   const handleClickPage = (page: number) => {
     setFilters({ currentPage: page });
   };
 
-  if (
-    !(
-      productType === "food" ||
-      productType === "electronics" ||
-      productType === "clothing"
-    )
-  ) {
-    return <NotFound />;
+  if (!validProductType) {
+    return <Navigate to={ROUTES.HOME} replace />;
   }
 
   return (
