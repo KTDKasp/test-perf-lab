@@ -4,15 +4,12 @@ import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
 import { useCallback, useEffect } from "react";
 import { useProductFilters } from "@/shared/hooks/use-product-filters";
-import { useSelector } from "react-redux";
-import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
+import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
 import { fetchProducts } from "@/app/rtk-store/products.slice";
 import { cn } from "@/shared/lib/css";
 
 function HomePage() {
-  const { products, error, loading, totalPages } = useSelector(
-    (state: RootState) => state.products,
-  );
+  const { products, error, loading, totalPages } = useAppSelector(state => state.products);
   const dispatch = useAppDispatch();
 
   const {

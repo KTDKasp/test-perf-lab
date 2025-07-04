@@ -1,5 +1,5 @@
 import { fetchProducts } from "@/app/rtk-store/products.slice";
-import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
+import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
 import { useProductFilters } from "@/shared/hooks/use-product-filters";
 import { cn } from "@/shared/lib/css";
 import type { FilterCategory } from "@/shared/types/filters";
@@ -7,13 +7,10 @@ import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
 import { useCallback, useEffect } from "react";
-import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 
 function FoodPage() {
-  const { products, error, loading, totalPages } = useSelector(
-    (state: RootState) => state.products,
-  );
+  const { products, error, loading, totalPages } = useAppSelector(state => state.products);
   const dispatch = useAppDispatch();
 
   const location = useLocation();

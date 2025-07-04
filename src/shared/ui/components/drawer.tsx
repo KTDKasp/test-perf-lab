@@ -1,8 +1,7 @@
-import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
+import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
 import { cn } from "@/shared/lib/css";
 import { X } from "lucide-react";
 import type { HTMLAttributes } from "react";
-import { useSelector } from "react-redux";
 import { CartItem } from "./cart-item";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "@/shared/api/routes";
@@ -15,10 +14,7 @@ type DrawerProps = HTMLAttributes<HTMLDivElement> & {
 };
 
 export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
-  const cartItems = useSelector((state: RootState) => state.cart.cartItems);
-  const cartTotalPrice = useSelector(
-    (state: RootState) => state.cart.totalPrice,
-  );
+  const { cartItems, totalPrice: cartTotalPrice } = useAppSelector(state => state.cart);
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
 

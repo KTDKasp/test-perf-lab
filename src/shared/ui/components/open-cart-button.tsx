@@ -1,16 +1,13 @@
-import { useAppDispatch, type RootState } from "@/app/rtk-store/store";
-import { memo, useMemo } from "react";
-import { useSelector } from "react-redux";
+import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
+import { memo } from "react";
 import { Button } from "../kit/button";
 import { toggleDrawer } from "@/app/rtk-store/cart.slice";
 
 export const OpenCartButton = memo(function OpenCartButton() {
-  const cartItems = useSelector((state: RootState) => state.cart.cartItems);
+  const cartItems = useAppSelector(state => state.cart.cartItems);
   const dispatch = useAppDispatch();
 
-  const itemsCount = useMemo(() => {
-    return cartItems.reduce((acc, item) => acc + item.quantity, 0);
-  }, [cartItems]);
+  const itemsCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
   return (
     <div className="header__cart">
       <Button

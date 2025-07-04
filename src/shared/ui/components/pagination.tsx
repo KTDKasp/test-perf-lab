@@ -1,8 +1,7 @@
 import { Button } from "../kit/button";
 import { useMemo, type ReactNode } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
-import { useSelector } from "react-redux";
-import type { RootState } from "@/app/rtk-store/store";
+import { useAppSelector } from "@/app/rtk-store/store";
 
 type PaginationProps = {
   currentPage: number;
@@ -15,7 +14,7 @@ export function Pagination({
   onChangePage,
   totalPages,
 }: PaginationProps) {
-  const loading = useSelector((state: RootState) => state.products.loading);
+  const loading = useAppSelector(state => state.products.loading);
 
   const renderPageNumbers = useMemo(() => {
     const items: ReactNode[] = [];
