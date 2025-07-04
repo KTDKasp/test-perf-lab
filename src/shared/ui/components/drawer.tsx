@@ -14,7 +14,9 @@ type DrawerProps = HTMLAttributes<HTMLDivElement> & {
 };
 
 export function Drawer({ closeDrawer, isOpen }: DrawerProps) {
-  const { cartItems, totalPrice: cartTotalPrice } = useAppSelector(state => state.cart);
+  const { cartItems, totalPrice: cartTotalPrice } = useAppSelector(
+    (state) => state.cart,
+  );
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
 

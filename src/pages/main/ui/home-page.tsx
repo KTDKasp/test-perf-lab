@@ -2,14 +2,16 @@ import { Filters } from "@/shared/ui/components/filters-group";
 import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
-import { useCallback, useEffect } from "react";
+import { useEffect } from "react";
 import { useProductFilters } from "@/shared/hooks/use-product-filters";
 import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
-import { fetchProducts } from "@/app/rtk-store/products.slice";
 import { cn } from "@/shared/lib/css";
+import { fetchProducts } from "@/app/rtk-store/thunks/products-thunk";
 
 function HomePage() {
-  const { products, error, loading, totalPages } = useAppSelector(state => state.products);
+  const { products, error, loading, totalPages } = useAppSelector(
+    (state) => state.products,
+  );
   const dispatch = useAppDispatch();
 
   const {
@@ -23,9 +25,9 @@ function HomePage() {
     dispatch(fetchProducts({ category, currentPage, sort: sortProperty }));
   }, [category, currentPage, sortProperty]);
 
-  const handleClickPage = useCallback((page: number) => {
+  const handleClickPage = (page: number) => {
     setFilters({ currentPage: page });
-  }, []);
+  };
 
   return (
     <main className="w-full flex flex-col flex-1">
@@ -55,10 +57,13 @@ function HomePage() {
             )}
           >
             {products.map((product) => (
-            <li className="max-h-[370px] max-w-[300px] w-full" key={product.id}>
-              <ProductCard product={product} />
-            </li>
-          ))}
+              <li
+                className="max-h-[370px] max-w-[300px] w-full"
+                key={product.id}
+              >
+                <ProductCard product={product} />
+              </li>
+            ))}
           </ul>
         </div>
         {error && <p className="font-bold">{error}</p>}

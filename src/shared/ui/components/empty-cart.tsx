@@ -20,7 +20,7 @@ export function EmptyCart() {
           "w-full cursor-pointer bg-black text-white text-[14px] font-medium py-2 px-4 rounded-[8px] hover:bg-black/80",
         )}
       >
-        <ChevronLeft size={16}/>
+        <ChevronLeft size={16} />
         Вернуться назад
       </button>
     </div>

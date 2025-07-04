@@ -17,16 +17,8 @@ export const router = createBrowserRouter([
         lazy: () => import("@/pages/main/ui/home-page"),
       },
       {
-        path: ROUTES.FOOD,
-        lazy: () => import("@/pages/products/ui/food-page"),
-      },
-      {
-        path: ROUTES.CLOTHING,
-        lazy: () => import("@/pages/products/ui/clothing-page"),
-      },
-      {
-        path: ROUTES.ELECTRONICS,
-        lazy: () => import("@/pages/products/ui/electronics-page"),
+        path: ROUTES.PRODUCTS,
+        lazy: () => import("@/pages/products/ui/products-page"),
       },
       {
         path: ROUTES.SUCCESS_ORDER,

@@ -1,20 +1,25 @@
-import { fetchProducts } from "@/app/rtk-store/products.slice";
 import { useAppDispatch, useAppSelector } from "@/app/rtk-store/store";
+import { fetchProducts } from "@/app/rtk-store/thunks/products-thunk";
+import { ROUTES, type PathParams } from "@/shared/api/routes";
 import { useProductFilters } from "@/shared/hooks/use-product-filters";
 import { cn } from "@/shared/lib/css";
 import type { FilterCategory } from "@/shared/types/filters";
+import { NotFound } from "@/shared/ui/components/not-found";
 import { Pagination } from "@/shared/ui/components/pagination";
 import { ProductCard } from "@/shared/ui/components/product-card";
 import { SelectSort } from "@/shared/ui/components/select-sort";
-import { useCallback, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { productTypeName } from "@/shared/utils/constants";
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-function FoodPage() {
-  const { products, error, loading, totalPages } = useAppSelector(state => state.products);
+function ProductsPage() {
+  const { productType } = useParams<PathParams[typeof ROUTES.PRODUCTS]>();
+
+  const { products, error, loading, totalPages } = useAppSelector(
+    (state) => state.products,
+  );
   const dispatch = useAppDispatch();
-
-  const location = useLocation();
-  const pageCategory = location.pathname.slice(1) as FilterCategory;
+  const pageCategory = productType as FilterCategory;
 
   const { page: currentPage, setFilters, sortProperty } = useProductFilters();
 
@@ -26,16 +31,27 @@ function FoodPage() {
         sort: sortProperty,
       }),
     );
-  }, [currentPage, sortProperty]);
+  }, [pageCategory, currentPage, sortProperty]);
+  const productPageName = productTypeName[productType!];
 
-  const handleClickPage = useCallback((page: number) => {
+  const handleClickPage = (page: number) => {
     setFilters({ currentPage: page });
-  }, []);
+  };
+
+  if (
+    !(
+      productType === "food" ||
+      productType === "electronics" ||
+      productType === "clothing"
+    )
+  ) {
+    return <NotFound />;
+  }
 
   return (
     <main className="w-full flex flex-col flex-1">
       <div className="container flex flex-col items-center mx-auto flex-[1]">
-        <h2 className="text-3xl font-semibold mb-2">Еда</h2>
+        <h2 className="text-3xl font-semibold mb-2">{productPageName}</h2>
         <div className="flex items-center gap-5 mb-5">
           <SelectSort
             sortValue={sortProperty}
@@ -74,4 +90,4 @@ function FoodPage() {
   );
 }
 
-export const Component = FoodPage;
+export const Component = ProductsPage;

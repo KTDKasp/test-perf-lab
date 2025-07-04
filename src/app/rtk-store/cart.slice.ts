@@ -1,8 +1,5 @@
 import type { Product } from "@/shared/types/product";
-import {
-  createSlice,
-  type PayloadAction,
-} from "@reduxjs/toolkit";
+import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import { loadState } from "./storage";
 import { calcTotalPrice } from "@/shared/utils/calc-total-price";
 

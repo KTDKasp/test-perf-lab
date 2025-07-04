@@ -14,7 +14,7 @@ export function Pagination({
   onChangePage,
   totalPages,
 }: PaginationProps) {
-  const loading = useAppSelector(state => state.products.loading);
+  const loading = useAppSelector((state) => state.products.loading);
 
   const renderPageNumbers = useMemo(() => {
     const items: ReactNode[] = [];

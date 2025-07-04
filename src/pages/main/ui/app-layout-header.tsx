@@ -5,12 +5,12 @@ import { cn } from "@/shared/lib/css";
 import { Drawer } from "@/shared/ui/components/drawer";
 import { OpenCartButton } from "@/shared/ui/components/open-cart-button";
 import { Button } from "@/shared/ui/kit/button";
-import { Link, useLocation } from "react-router-dom";
+import { href, Link, useLocation } from "react-router-dom";
 
 export function AppLayoutHeader() {
   const location = useLocation();
 
-  const isDrawerOpen = useAppSelector(state => state.cart.isDrawerOpen);
+  const isDrawerOpen = useAppSelector((state) => state.cart.isDrawerOpen);
   const dispatch = useAppDispatch();
 
   return (
@@ -39,29 +39,41 @@ export function AppLayoutHeader() {
           <div className="flex gap-4">
             <Button
               asChild
-              variant={location.pathname === ROUTES.FOOD ? "default" : "link"}
+              variant={
+                location.pathname === "/products/food" ? "default" : "outline"
+              }
               className="text-lg rounded-lg border border-gray-300"
             >
-              <Link to={ROUTES.FOOD}>Еда</Link>
+              <Link to={href(ROUTES.PRODUCTS, { productType: "food" })}>
+                Еда
+              </Link>
             </Button>
             <Button
               asChild
               variant={
-                location.pathname === ROUTES.CLOTHING ? "default" : "link"
+                location.pathname === "/products/clothing"
+                  ? "default"
+                  : "outline"
               }
               className="text-lg rounded-lg border border-gray-300"
             >
-              <Link to={ROUTES.CLOTHING}>Одежда</Link>
+              <Link to={href(ROUTES.PRODUCTS, { productType: "clothing" })}>
+                Одежда
+              </Link>
             </Button>
 
             <Button
               asChild
               variant={
-                location.pathname === ROUTES.ELECTRONICS ? "default" : "link"
+                location.pathname === "/products/electronics"
+                  ? "default"
+                  : "outline"
               }
               className="text-lg rounded-lg border border-gray-300"
             >
-              <Link to={ROUTES.ELECTRONICS}>Электроника</Link>
+              <Link to={href(ROUTES.PRODUCTS, { productType: "electronics" })}>
+                Электроника
+              </Link>
             </Button>
           </div>
 

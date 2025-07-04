@@ -7,4 +7,10 @@ export const sortList: FilterSortType[] = [
   { name: "по убыванию цены", sortProperty: "-price" },
 ];
 
+export const productTypeName = {
+  food: "Еда",
+  clothing: "Одежда",
+  electronics: "Электроника",
+};
+
 export const PER_PAGE = 6;

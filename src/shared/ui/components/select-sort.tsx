@@ -37,10 +37,7 @@ export function SelectSort({ sortValue, onChangeSort, ...props }: SelectProps) {
         ))}
       </select>
       <div className="pointer-events-none w-[30px] h-full flex items-center justify-center absolute right-0 rounded-r-lg">
-        <ChevronDownIcon
-          className="size-4 fill-white/60"
-          aria-hidden="true"
-        />
+        <ChevronDownIcon className="size-4 fill-white/60" aria-hidden="true" />
       </div>
     </div>
   );
